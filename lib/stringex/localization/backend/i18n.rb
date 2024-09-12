@@ -12,7 +12,7 @@ module Stringex
           end
 
           def locale
-            @locale || ::I18n.locale
+            @locale ||= ::I18n.locale
           end
 
           def locale=(new_locale)
